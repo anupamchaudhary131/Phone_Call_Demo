@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/learnvern"
+        android:textSize="@dimen/textSize"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/saffron"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/headerDescription"
+        android:gravity="center"
+        android:textSize="@dimen/descriptionSize"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/contactButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contactUs"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="@dimen/descriptionSize"
+        android:backgroundTint="@color/saffron"
+        android:padding="10dp"
+        android:layout_margin="@dimen/marginSize" />
+
+    <Button
+        android:id="@+id/callFriendBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/descriptionSize"
+        android:text="Call a friend"
+        android:textAllCaps="false"
+        android:textSize="@dimen/descriptionSize"
+        android:textStyle="bold"
+        android:backgroundTint="@color/saffron"
+        android:padding="12dp"
+        android:onClick="callFriend"/>
+</LinearLayout>

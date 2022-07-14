@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Phone_Call_Demo</string>
+    <string name="learnvern">LearnVern</string>
+    <string name="headerDescription">For more info please contact us from the following options</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="hint">Please Enter Contact Of Person <Br> You Want To Connect And Talk </Br></string>
+    <string name="buttonText">Call</string>
+</resources>
